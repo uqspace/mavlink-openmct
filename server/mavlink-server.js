@@ -76,7 +76,7 @@ function install(app, config = {
 
                             let messageJSON = {
                                 'timestamp': utcTime,
-                                'value': message[messageNameComponents[1].toUpperCase()],
+                                'value': message[messageNameComponents[1]],
                                 'key': subscribedMessage
                             }
 
